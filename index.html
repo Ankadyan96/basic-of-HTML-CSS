@@ -4,97 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>home | ankit's website</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Welcome to Ankit's component library</h1>
-    <p>
-      I am Ankit Kadyan and I want to make a library which would make all my
-      projects look good and consistent.
-    </p>
-
-    <hr />
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>
-      Let me show you the normal text. This is free flowing and will wrap at the
-      end like a paragraph.
-    </p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-    <small>This is relatively smaller text</small>
-
-    <hr />
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">
-      This is a fluid container and it will go till the end of the page.
-    </div>
-
-    <h3>centered container</h3>
-    <div class="container container-center">
-      This is a centered container and it will go till the specific width.
-    </div>
-
-    <hr />
-
-    <h2>@links</h2>
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr />
-
-    <h2>@list</h2>
-    <h3>Unordered list</h3>
-    <p>This list will not have the bullets.</p>
-
-    <ul class="list-non-bullet">
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">Inline Item One</li>
-      <li class="list-item-inline">Inline Item Two</li>
-      <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3>Reversed order list</h3>
-    <ol reversed>
-      <li>Milk</li>
-      <li>Eggs</li>
-      <li>Bread</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
     <nav class="navigation">
-      <div class="nav-brand">BrandLogo</div>
+      <div class="nav-brand">ankit's website</div>
       <ul class="list-non-bullet nav-pills">
         <li class="list-item-inline">
           <a class="link link-active" href="/">home</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/">products</a>
+          <a class="link" href="/projects.html">projects</a>
         </li>
         <li class="list-item-inline">
-          <a class="link" href="/">about</a>
+          <a class="link" href="/blogs.html">blogs</a>
         </li>
       </ul>
     </nav>
-
-    <hr />
-
-    <h2>@header</h2>
 
     <header class="hero">
       <img class="hero-img" src="images/hero.svg" alt="" />
@@ -103,37 +30,36 @@
       </h1>
     </header>
 
-    <hr />
-
-    <h2>@section</h2>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>technology</h1>
+        <p><strong>I am familiar with HTML5, CSS3, Bootstrap, JavaScript, Git and ReactJS</strong></p>
+      </div>
+    </section>
 
     <section class="section">
       <div class="container container-center">
-        <h1>white section</h1>
-        <p>Container queries enable you to apply styles to an element based on the size of the element's container. If, for example, a container has less space available in the surrounding context, you can hide certain elements or use smaller fonts. Container queries are an alternative to media queries, which apply styles to elements based on viewport size or other device characteristics.</p>
+        <h1>projects</h1>
+        <p><strong>I like to showcase my work and thus, you can see my projects hosted online</strong></p>
+        <a class="link link-primary" href="/">See Projects</a>
       </div>
     </section>
 
     <section class="section ow">
       <div class="container container-center">
-        <h1>off white section</h1>
-        <p>Container queries enable you to apply styles to an element based on the size of the element's container. If, for example, a container has less space available in the surrounding context, you can hide certain elements or use smaller fonts. Container queries are an alternative to media queries, which apply styles to elements based on viewport size or other device characteristics.</p>
+        <h1>blogs</h1>
+        <p><strong>I am familiar with HTML5, CSS3, Bootstrap, JavaScript, Git and ReactJS</strong></p>
       </div>
     </section>
 
-    <hr />
-
-    <h2>@footer</h2>
-
     <footer class="footer">
-      <div class="footer-header">Some small heading inside footer</div>
+      <div class="footer-header">social media presence</div>
       <ul class="social-links list-non-bullet">
-        <li class="list-item-inline"><a class="link" href="/">social one</a></li>
-        <li class="list-item-inline"><a class="link" href="">social two</a></li>
-        <li class="list-item-inline"><a class="link" href="">social three</a></li>
+        <li class="list-item-inline"><a class="link" href="https://github.com/Ankadyan96">github</a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/AnkitKadyan1">twitter</a></li>
+        <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ankit-kadyan-3553b81a3/">linkedin</a></li>
       </ul>
     </footer>
 
-    <div style="height: 20vh"></div>
   </body>
 </html>
